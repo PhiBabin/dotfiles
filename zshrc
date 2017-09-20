@@ -14,8 +14,8 @@ setopt no_share_history
 bindkey '^[OA' history-beginning-search-backward
 bindkey '^[OB' history-beginning-search-forward
 
-# Hide the philippe@asimov in the prompt for the agnoster
-#export DEFAULT_USER"=philippe"
+# Hide the philippe@asimov in the prompt for the bullet-train
+BULLETTRAIN_CONTEXT_DEFAULT_USER="philippe"
 
 # ROS Indigo setup
 source /opt/ros/indigo/setup.zsh
