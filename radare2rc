@@ -1,0 +1,15 @@
+# Shows pseudocode in disassembly. Eg mov eax, str.ok = > eax = str.ok
+e asm.pseudo = true
+
+
+# Solarized theme
+eco solarized
+
+# Use UTF-8 to show cool arrows that do not look like crap :)
+e scr.utf8 = true  
+
+# Make debugger pause on main
+# aa
+# e dbg.bep = sym.main
+
+
