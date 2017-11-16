@@ -2,6 +2,7 @@
 
 ln -s ~/repos/dotfiles/inputrc ~/.inputrc
 ln -s ~/repos/dotfiles/radare2rc ~/.radare2rc
+ln -s ~/repos/dotfiles/gitconfig ~/.gitconfig
 
 # Install  oh-my-zsh theme
 cd ~/.oh-my-zsh/themes/

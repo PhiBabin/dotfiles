@@ -49,3 +49,6 @@ export WORKON_HOME=$HOME/.virtualenvs
 
 echo "grsim-run    -> run grsim"
 alias grsim-run="~/repos/grSim/bin/grsim"
+
+alias fnano="/bin/nano"
+alias nano="nvim"
