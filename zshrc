@@ -14,8 +14,11 @@ setopt no_share_history
 bindkey '^[OA' history-beginning-search-backward
 bindkey '^[OB' history-beginning-search-forward
 
-# Hide the philippe@asimov in the prompt for the bullet-train
+# Hide the philippe@my_computer in the prompt for the bullet-train, but keep it if I am not 'philippe'
 BULLETTRAIN_CONTEXT_DEFAULT_USER="philippe"
+
+# Execute the auto check_repos script when a new terminal is open
+python3 $HOME/repos/dotfiles/check_repos
 
 # ROS Indigo setup
 #source /opt/ros/indigo/setup.zsh
