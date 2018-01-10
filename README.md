@@ -6,7 +6,7 @@ Install oh-my-zsh by following [these instructions](https://github.com/robbyruss
 Download and install [insync](https://www.insynchq.com/).
 Basic software that I use on all of my computers:
 ```shell
-sudo apt-get install guake git curl zsh xclip
+sudo apt-get install guake git curl zsh xclip autoconf g++ cmake
 ```
 ## Setup
 
@@ -31,7 +31,6 @@ references the file in the repo. For example you could have the following.
 
 # Git
 Set your public ssh key with your github account by following [that guide](https://help.github.com/articles/connecting-to-github-with-ssh/).
-
 
 # Guake
 I use *Menlo for powerline* for the font and *Solarized Dark Higher Contrast* for the color pallette.
