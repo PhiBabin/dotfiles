@@ -65,4 +65,4 @@ export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
 echo "grsim-run    -> run grsim"
-alias grsim-run="~/repos/robocupia/grSim/bin/grsim"
+alias grsim-run="~/Documents/robocupia/grSimUpdated/bin/grsim"
