@@ -42,7 +42,8 @@ setRosMasterYourComputer
 
 alias update="sudo apt-get update && sudo apt-get upgrade --force-yes"
 
-
+# By default zsh require quote around wildcare statement (ex: ls foo.*  -> fail, ls "foo.*" -> ok) this remove that requirement
+unsetopt nomatch
 
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=$HOME/.virtualenvs
@@ -50,5 +51,6 @@ export WORKON_HOME=$HOME/.virtualenvs
 echo "grsim-run    -> run grsim"
 alias grsim-run="~/repos/grSim/bin/grsim"
 
+# Force me to use vim
 alias fnano="/bin/nano"
 alias nano="nvim"
