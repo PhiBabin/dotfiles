@@ -49,6 +49,8 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=$HOME/.virtualenvs
 
 echo "grsim-run    -> run grsim"
+
+#alias grsim-run="~/Documents/robocupia/grSimUpdated/bin/grsim"
 alias grsim-run="~/repos/grSim/bin/grsim"
 
 # Force me to use vim
