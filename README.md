@@ -6,7 +6,7 @@ Install oh-my-zsh by following [these instructions](https://github.com/robbyruss
 Download and install [insync](https://www.insynchq.com/).
 Basic software that I use on all of my computers:
 ```shell
-sudo apt-get install guake git curl zsh xclip autoconf g++ cmake
+sudo apt-get install guake git neovim curl zsh xclip autoconf g++ cmake
 ```
 ## Setup
 
@@ -28,6 +28,9 @@ references the file in the repo. For example you could have the following:
 
 # Local corrections...
 ```
+# `~/.ssh/config`
+The `~/.ssh/config` file contains ip address and ssh port that I use frequently. I don't think it should be public data, so I encrypted with gpg. To decrypt the `ssh_config.gpg` execute `decrypt.sh`. For the reverse operation executes `encrypt.sh`.
+
 
 # Git
 Set your public ssh key with your github account by following [that guide](https://help.github.com/articles/connecting-to-github-with-ssh/).

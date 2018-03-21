@@ -3,6 +3,7 @@
 
 ln -s ~/repos/dotfiles/inputrc ~/.inputrc
 ln -s ~/repos/dotfiles/radare2rc ~/.radare2rc
+ln -s ~/repos/dotfiles/vimrc ~/.vimrc
 ln -s ~/repos/dotfiles/gitconfig ~/.gitconfig
 
 # Install Oh-my-zsh
