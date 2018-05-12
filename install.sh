@@ -1,5 +1,9 @@
 #! /bin/bash
 
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+
+sudo apt-get install guake git neovim curl zsh xclip autoconf g++ cmake htop
 
 ln -s ~/repos/dotfiles/inputrc ~/.inputrc
 ln -s ~/repos/dotfiles/radare2rc ~/.radare2rc

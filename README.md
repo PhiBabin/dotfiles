@@ -6,7 +6,7 @@ Install oh-my-zsh by following [these instructions](https://github.com/robbyruss
 Download and install [insync](https://www.insynchq.com/).
 Basic software that I use on all of my computers:
 ```shell
-sudo apt-get install guake git neovim curl zsh xclip autoconf g++ cmake
+sudo apt-get install guake git neovim curl zsh xclip autoconf g++ cmake htop
 ```
 ## Setup
 

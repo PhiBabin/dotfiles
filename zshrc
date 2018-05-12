@@ -58,7 +58,7 @@ alias grsim-run="~/repos/grSim/bin/grsim"
 
 # Force me to use vim
 alias fnano="/bin/nano"
-alias nano="nvim"
+alias nano="vim"
 
 # Useful command
 alias glog="git log --all --graph  --decorate --oneline"
