@@ -1,7 +1,7 @@
 export ZSH=~/.oh-my-zsh
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 ZSH_THEME="bullet-train"
 
@@ -59,6 +59,7 @@ alias grsim-run="~/repos/grSim/bin/grsim"
 # Force me to use vim
 alias fnano="/bin/nano"
 alias nano="vim"
+alias n="vim"
 
 # Useful command
 alias glog="git log --all --graph  --decorate --oneline"
