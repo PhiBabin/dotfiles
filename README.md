@@ -2,11 +2,10 @@
 Configuration files use on all of my computers.
 
 ## Dependencies
-Install oh-my-zsh by following [these instructions](https://github.com/robbyrussell/oh-my-zsh).
 Download and install [insync](https://www.insynchq.com/).
-Basic software that I use on all of my computers:
+The `install.sh` only required `git` to work and handle all the dependencies:
 ```shell
-sudo apt-get install guake git neovim curl zsh xclip autoconf g++ cmake htop
+sudo apt-get install git
 ```
 ## Setup
 
@@ -28,17 +27,17 @@ references the file in the repo. For example you could have the following:
 
 # Local corrections...
 ```
-# `~/.ssh/config`
+## `~/.ssh/config`
 The `~/.ssh/config` file contains ip address and ssh port that I use frequently. I don't think it should be public data, so I encrypted with gpg. To decrypt the `ssh_config.gpg` execute `decrypt.sh`. For the reverse operation executes `encrypt.sh`.
 
 
-# Git
+## Git
 Set your public ssh key with your github account by following [that guide](https://help.github.com/articles/connecting-to-github-with-ssh/).
 
-# Guake
+## Guake
 I use `Menlo for powerline` for the font and `Solarized Dark Higher Contrast` for the color pallette. Remove VTE title. Remove terminal follow mouse. Change shortcut of tab from ctrl+F1 to F1.
 
-# Gnome 3
+## Gnome 3
 First of install `gnome-tweak`. I currently use the following extension to make Gnome 3 usable:
  - `Dash to panel` : Add a Win10-like bar in the bottom of the screen
  - `No topleft hot corner`
@@ -64,7 +63,7 @@ Applications:
 	If you want support for mpd music player, you must install it and its `libmpdclient-dev` library before compiling `polybar`
  - `comptom` Windows Compositor, I think those things only handle effect around windows? (WIP)
  - `dunst` Notification handler (WIP)
- - `urxvt` (also know as `rxvt-unicode`) the virtual terminal used everywhere. It's config file is the `~/.Xresources`. All of the colors are set using [a base16 `Xresources`](https://github.com/chriskempson/base16-xresources), like this:
+ - `urxvt` (also know as `rxvt-unicode`) the virtual terminal used everywhere. It's config file is the `~/.Xresources`. This kind of virtual terminal is weird and used bitmap font. All of the colors are set using [a base16 `Xresources`](https://github.com/chriskempson/base16-xresources), like this:
 ```bash
 curl https://raw.githubusercontent.com/chriskempson/base16-xresources/master/xresources/base16-default-dark-256.Xresources >> ~/.Xresources
 xrdb -load ~/.Xresources
