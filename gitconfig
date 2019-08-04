@@ -10,3 +10,8 @@
     prompt = false
 [difftool "meld"]
     cmd = meld "$LOCAL" "$REMOTE"
+
+[core]
+    ignorecase = false
+#[credential]
+#	helper = cache --timeout 150000
