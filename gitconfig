@@ -13,5 +13,5 @@
 
 [core]
     ignorecase = false
-#[credential]
-#	helper = cache --timeout 150000
+[credential]
+    helper = cache --timeout 150000
